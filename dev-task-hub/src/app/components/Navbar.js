@@ -33,6 +33,9 @@ export default function Navbar() {
               Tasks
             </Link>
           </li>
+          <li>
+            <Link href="/tasks/addTask" className={pathname === "/tasks/addTask" ? "text-blue-400" : ""}>Add Task</Link>
+          </li>
         </ul>
       </div>
     </nav>
